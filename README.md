@@ -17,9 +17,11 @@
 ## Welcome.jsx
 
 ```js
-  <Route path="/welcome" element={<Welcome />}>
-    <Route path="new-user" element={<p>Welcome, new user!</p>}></Route>
-  </Route>
+    <section>
+      <h1>The Welcome Page</h1>
+      <Link to="new-user">New User</Link>
+      <Outlet />
+    </section>
 ```
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-qfreld)
