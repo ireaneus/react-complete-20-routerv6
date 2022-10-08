@@ -2,8 +2,9 @@
 
 ## react-router-dom v6.4.1
 
-- Navigate, Routes, Outlet
-- <Outlet /> is used to display the nested route component
+- Navigate, Routes, Outlet, useNavigate
+- <Outlet /> is used to placeholder the nested route component
+- useNavigate replaces useHistory (to, replace)
 
 ## App.jsx
 
